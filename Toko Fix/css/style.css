@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler-icon {
+    color: #000;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-md .navbar-nav {
+        margin-left: auto;
+    }
+}
+
+
+.bg-clr-elegan-hitam{
+    background-color: #1E1F26;
+}
+
+.bg-clr-elegan-kuning {
+    background-color: #FDB813;
+}
+
+
+.highlight-kategori {
+    height: 250px;
+}
+
+.kategori-produk {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('AdminLTE/dist/img/photo2.png');
+    background-size: cover;
+    background-position: center;
+}
+.search {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('AdminLTE/dist/img/photo2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover {
+    color: darkkhaki;
+}
+
+.black_coy {
+    color: black;
+    text-decoration: none;
+}
